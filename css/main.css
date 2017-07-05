@@ -1,25 +1,25 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'GoraFree-Regular';
-  src:  url('../fonts/GoraFree-Regular/GoraFree-Regular.woff') format('woff');
+  src:  url('../fonts/gorafree-regular/gorafree-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSans-Bold';
-  src:  url('../fonts/OpenSans/OpenSans-Bold.woff') format('woff');
+  src:  url('../fonts/opensans/opensans-bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSans-Light';
-  src:  url('../fonts/OpenSans/OpenSans-Light.woff') format('woff');
+  src:  url('../fonts/opensans/opensans-light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSansLight-Italic';
-  src:  url('../fonts/OpenSans/OpenSansLight-Italic.woff') format('woff');
+  src:  url('../fonts/opensans/opensanslight-italic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   
