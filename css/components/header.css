@@ -1,0 +1,36 @@
+.header {
+    background-color: #131415;
+    padding: 15px 0;
+    width: 100%;
+}
+.header__left, .header__right {
+    float: left;
+    width: 50%;
+}
+.header__right {
+  text-align: right;
+}
+.logo-name__link {
+    display: block;
+}
+.logo-name__header{
+    font-family: GoraFree-Regular;
+    display: inline-block;
+    font-size: 18px;
+    color: #c77814;
+    padding-top: 12px; 
+    padding-left: 19px;
+}
+.header__contact {  
+    font-family: 'OpenSans-Bold';
+    font-size: 21px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+}
+.header__schedule{
+    color: #c77814;
+    font-family: 'OpenSans-Bold';
+    font-size: 14px;
+    text-decoration: underline;
+}

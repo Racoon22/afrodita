@@ -1,0 +1,97 @@
+.footer {
+background-color: #131415;
+width: 100%;
+}
+.logo-name__footer{
+    font-family: GoraFree-Regular;
+    font-size: 18px;
+    text-align: center;
+    color: #c77814;
+    padding-top: 30px; 
+    padding-left: 17px;
+    float: left;
+     width: 33%;
+}
+.copyright {
+    float: left;
+    width: 33%;
+    margin: 10px 0;
+     
+}
+.copyright__text {
+    margin-left: 20px;
+    width: 250px;
+    color: white;
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
+}
+.copyright__link {
+    color: white;
+     font-family: 'OpenSans-Bold'
+}
+.social {
+    width: 33%;
+    float: right;
+    text-align: right;
+
+   }
+.social__block {
+    display: inline-block;
+    width: 250px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+  .social__title {
+    color: white;
+    font-family: 'OpenSans-Bold'; 
+      
+  }
+  .social__list {
+    margin-top:  5px;
+    padding: 0;
+    margin-right: 30px;
+    
+  }
+ .social__item {
+    display:  inline-block;
+    padding-right: 10px;
+}
+.social__link{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.social__link--vk {
+     background-image: url('../../img/icons/social_vk_icon.png');
+ }
+ .social__link--vk:hover {
+     background-image: url('../../img/icons/social_vk_icon_hover.png');
+ }
+  .social__link--fb {
+     background-image: url('../../img/icons/social_fb_icon.png');
+ }
+ .social__link--fb:hover {
+     background-image: url('../../img/icons/social_fb_icon_hover.png');
+ }
+  .social__link--google {
+     background-image: url('../../img/icons/social_google_icon.png');
+ }
+ .social__link--google:hover {
+     background-image: url('../../img/icons/social_google_icon_hover.png');
+ }
+  .social__link--twitter {
+     background-image: url('../../img/icons/social_twitter_icon.png');
+ }
+ .social__link--twitter:hover {
+     background-image: url('../../img/icons/social_twitter_icon_hover.png');
+ }
+  .social__link--mail {
+     background-image: url('../../img/icons/social_mail_icon.png');
+ }
+ .social__link--mail:hover {
+     background-image: url('../../img/icons/social_mail_icon_hover.png');
+ }
+
+
+
+

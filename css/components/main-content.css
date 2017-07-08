@@ -1,0 +1,4 @@
+ .main__content, .feed__content, .servises__content {
+     float: left;
+     width: 900px;
+ }
