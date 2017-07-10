@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<meta http-equiv="X-UA-Compatible" content="1100">-->
+    <meta http-equiv="X-UA-Compatible" content="1100">
     <link href="css/normalize.css" rel="stylesheet">
-    <!--<link href="css/all.css" rel="stylesheet">-->
     <link href="css/main.css" rel="stylesheet">
     <title>Afrodita</title>
 </head>
@@ -143,31 +142,55 @@
                     </div>
                     <div class="form">
                         <div class="form__title">
-                            Оставить отзывы
+                            Оставить отзыв
                         </div>
-                        <div class="form__fields">
-                            <form action="" class="form__elem" method="post">
-                                <div class="form__row clear-fix">
-                                    <label class="form__cell">
-                          <div class="form__field">
-                              Ваше имя
-                          </div>
-                                 <input type="text" name="test" class="form__input-text" value=""  placeholder="Введите имя">  
-                   
-                                        <label class="form__cell">
-                                 <div class="form__field">Ваше имя</div>
-                                 <input type="text" name="test" value="" placeholder="Введите ссылку"  class="form__input-text">  
-                             </label>
+                        <form action="" class="form__elem" method="post">
+                            <div class="form__row clear-fix">
+                                <label class="form__cell">
+                                    <div class="form__field-title">
+                                    Ваше имя
+                                    </div>
+                                    <input type="text" name="test" class="form__input-text" value=""  placeholder="Введите имя">  
+                                </label>
+                                <label class="form__cell">
+                                    <div class="form__field-title">
+                                     Ссылка на профиль VK   
+                                     </div>
+                                        <input type="text" name="test" value="" placeholder="Введите ссылку"  class="form__input-text">  
+                                </label>
+                            </div>
+                            <label class="form__textarea-label">
+                                    <div class="form__field-title">
+                                        Текст отзыва
+                                    </div>
+                                    <textarea class="form__textarea" placeholder="Введите сообщение"></textarea>
+                                </label>
+                            <div class="from__controls">
+                                <div class="from__controls-btn clear-fix">
+                                    <div class="form__controls-left">
+                                        <div class="from__controls-title">
+                                            Отображать фото в отзыве?
+                                        </div>
+                                        <label class="from__radio">
+                                        <input type="radio" name="alow_photo" class="from__radio-elem" checked>
+                                        <div class="from__radio-fake"></div>
+                                        <div class="from__radio-text">Да</div>
+                                    </label>
+                                        <label class="from__radio">
+                                     <input type="radio" name="alow_photo" class="from__radio-elem">
+                                     <div class="from__radio-fake"></div>
+                                     <div class="from__radio-text">Нет</div>
+                                </label>
+                                    </div>
+                                    <div class="form__controls-right">
+                                        <input type="submit" value="Отправить" class="form__submit">
+                                    </div>
                                 </div>
-                                <label class="form__textarea-label">
-                          <div class="form__field">
-                              Текст отзыва
-                          </div>
-                         <textarea class="form__textarea"></textarea>
-                            </label>
-                            </form>
-                        </div>
+
+                            </div>
+                        </form>
                     </div>
+
                 </main>
             </div>
 
