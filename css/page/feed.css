@@ -106,6 +106,7 @@
     text-align: center;
     vertical-align: baseline;
     line-height: 25px;
+    transition: all .5s ease;
 }
 .pagination__list {
      display: inline-block;

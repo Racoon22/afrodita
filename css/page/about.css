@@ -76,6 +76,7 @@
 }
 .partners__img {
     filter: grayscale(100%);
+    transition: all 1s;
 }
 .partners__img:hover {
     filter: none;
