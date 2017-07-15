@@ -1,36 +1,113 @@
 .header {
     background-color: #131415;
-    padding: 15px 0;
+    padding-top: 19px;
+    padding-bottom: 10px;
     width: 100%;
 }
 .header__left, .header__right {
     float: left;
     width: 50%;
+   padding-bottom: 4px;
 }
 .header__right {
   text-align: right;
+  padding-right: 20px;
 }
-.logo-name__link {
+.logo-name {
     display: block;
+
 }
-.logo-name__header{
+.logo-header{
     font-family: GoraFree-Regular;
     display: inline-block;
     font-size: 18px;
     color: #c77814;
     padding-top: 12px; 
     padding-left: 19px;
+
 }
 .header__contact {  
     font-family: 'OpenSans-Bold';
     font-size: 21px;
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: #ffffff;
+    line-height: 26px;
+
+
 }
-.header__schedule{
+.schedule {
+    display: inline-block;
+    position: relative;
+    margin-top: -4px;
+    margin-right: 3px;
+}
+.schedule:hover .schedule__dropdown {
+     display: block;
+}
+.contacts {
+  display: inline-block;
+}
+
+
+.schedule__link{
     color: #c77814;
     font-family: 'OpenSans-Bold';
     font-size: 14px;
     text-decoration: underline;
+    display: inline-block;
+
+}
+.schedule__dropdown {
+    border-radius: 5px 0  5px 5px;
+    width: 160px;
+    height: 70px;
+    position: absolute;
+    background-color: #f6f6f5;
+    z-index: 1000;
+    right: 0;
+    top: 100%;
+    margin-top: 20px;
+    display: none;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+.schedule__works {
+    font-size: 14px;
+    font-family: 'OpenSans-Bold';
+    color: #f89513;
+
+}
+.schedule__lanch {
+    font-size: 14px;
+    font-family: 'OpenSans-Light';
+    color: #221f1f;
+
+}
+.schedule__dropdown::after {
+    content: "";
+    display: block; 
+    position: absolute; 
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -20px;
+}
+.triangle {
+    content: "";
+    position: absolute;
+    border-top: 0 solid  #f6f6f5;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid  #f6f6f5;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    left: 100%;
+    margin-left: -24px;
+    z-index: 2001;
+ 
+   
 }

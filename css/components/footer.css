@@ -1,16 +1,24 @@
 .footer {
 background-color: #131415;
-width: 100%;
+margin-top: -76px;
+display: block;
+z-index: 60;
+   min-width: 1100px;
 }
-.logo-name__footer{
+.footer-container::before {
+  content: "";
+  height: 76px;
+  display: block;
+}
+.logo-footer {
     font-family: GoraFree-Regular;
     font-size: 18px;
     text-align: center;
     color: #c77814;
-    padding-top: 30px; 
-    padding-left: 17px;
+    padding-top: 26px; 
+    padding-left: 0;
     float: left;
-     width: 33%;
+    width: 33%;
 }
 .copyright {
     float: left;
@@ -27,7 +35,7 @@ width: 100%;
 }
 .copyright__link {
     color: white;
-     font-family: 'OpenSans-Bold'
+    font-family: 'OpenSans-Bold'
 }
 .social {
     width: 33%;
@@ -44,22 +52,25 @@ width: 100%;
   .social__title {
     color: white;
     font-family: 'OpenSans-Bold'; 
+    font-size: 14px;
       
   }
   .social__list {
-    margin-top:  5px;
-    padding: 0;
-    margin-right: 30px;
+    margin-top:  7px;
+    padding-right: 26px;
+   
     
   }
  .social__item {
     display:  inline-block;
-    padding-right: 10px;
+    margin: 0;
+    margin-right: 6px;
 }
 .social__link{
     display: inline-block;
     width: 20px;
     height: 20px;
+    filter: opacity(80%)
 }
 .social__link--vk {
      background-image: url('../../img/icons/social_vk_icon.png');

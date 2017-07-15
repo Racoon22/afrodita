@@ -1,27 +1,41 @@
 .servises__content {
-    padding-top: 45px;
+    padding-top: 40px;
 }
 .servises__title {
     font-family: 'OpenSans-Bold';  
-    text-transform: uppercase;
     color: #221f1f;
     font-size: 49px;
+    line-height: 18px;
+    margin-bottom: 60px;
  }
  .servises__item{
+    padding: 0;
+    margin: 0;
     display: inline-block;
-    width: 265px;
-    margin-bottom: 50px;
+    width: 261px;
+    margin-bottom: 48px;
     vertical-align: top;
-    margin-right: 40px;
+    margin-left: 43px; 
  }
+
+.servises__list {
+    margin-left: -43px; 
+    margin-bottom: 17px;
+}
+ 
   .servises__item:nth-child(3n){
-    margin-right: 0px;
+    margin-left: 36px; 
  }
  .servises__image {
-    margin-bottom: 25px;
+    margin-bottom: 16px;
  }
  .servises__list-title {
     font-family: 'OpenSans-Bold';  
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
+ }
+ .servises__description {
+    font-size: 14px;
+    line-height: 21px;
+
  }

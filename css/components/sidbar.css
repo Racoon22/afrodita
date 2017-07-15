@@ -1,9 +1,9 @@
 .main__aside {
     display: block;
     float: left;
-    width: 180px;
-    padding-top: 45px;
-    padding-right: 10px;
+    width: 200px;
+    padding-top: 30px;
+    padding-left: 20px;
 
 }
 .main__nav-item.active .main__nav-title {
@@ -19,12 +19,13 @@
 }
 .main__nav-title {
     display: inline-block;
-    margin-bottom: 35px;
-    margin-left: 19px;
     font-family: 'OpenSans-Bold';
     font-size: 12px;
     text-decoration: none;
     text-transform: uppercase;
+    line-height: 49px;
+    letter-spacing: 1px;
+    margin-left: 14px;
 }
 .main__nav-link{
     text-decoration: none; 
@@ -55,7 +56,7 @@
    background-image: url('../../img/icons/sidebar_main_icon_hover.png');
 }
 .main__nav-item.active .main__nav-img--servises{
-   background-image: url('../../img/icons/sidebar_service_icon_hover.png');
+   background-image: url('../../img/icons/sidebar_services_icon_hover.png');
 }
 .main__nav-item.active .main__nav-img--feed{
    background-image: url('../../img/icons/sidebar_feed_icon_hover.png');

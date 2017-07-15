@@ -1,5 +1,4 @@
 /*База*/
-@import "normolaze.css";
 @import "layout/base.css";
 @import "layout/fonts.css";
 
@@ -13,5 +12,6 @@
 @import "page/about.css";
 @import "page/servises.css";
 @import "page/feed.css";
+@import "page/welcome.css";
 
 

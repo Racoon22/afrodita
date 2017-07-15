@@ -1,33 +1,39 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="ru-RU">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="1100">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <title>Afrodita</title>
 </head>
 
 <body>
-    <div class="wrapper">
+     <div class="wrapper">
         <!--Шапка-->
         <header class="header">
             <div class="container clear-fix">
                 <div class="header__left">
                     <a href="index.html" class="logo-main">
-                        <div class="logo-name__header">Афродита</div>
+                        <div class="logo-header">Афродита</div>
                     </a>
                 </div>
                 <div class="header__right">
-                    <div class="header__info">
-                        <a href="tel:88000039210" class="header__contact">8(800)00-392-10</a>
-                        <div class="header__schedule">График работы</div>
+                    <div class="contacts">
+                        <a href="tel:88000039210" class="header__contact">8 (800) 00-392-10</a>
+                        <div class="schedule">
+                            <a href="#" class="schedule__link">График работы</a>
+                            <div class="schedule__dropdown">
+                                <span class="schedule__works">пн-вс: 09:00-20:00</span>
+                                <span class="schedule__lanch">обед: 14:00-14:30</span>
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </header>
         <!--Сайдбар-->
         <section class="main clear-fix">
@@ -66,7 +72,7 @@
                     <nav class="breadcrumbs">
                         <ul class="breadcrumbs__list">
                             <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link">Главная</a></li>
-                            <li class="breadcrumbs__item">/Отзывы</li>
+                            <li class="breadcrumbs__item">/ Отзывы</li>
                         </ul>
                     </nav>
                     <h1 class="feed__title">Отзывы</h1>
@@ -76,7 +82,7 @@
                                 <img src="img/content/review_3.jpg" class="feed__photo" alt="lion">
                             </div>
                             <div class="feed__container">
-                                <div class="feed__date">12.01.2016</div>
+                                <div class="feed__date">12.10.2016</div>
                                 <div class="feed__name">Алексей Воронов</div>
                                 <div class="feed__text">Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось
                                     накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен
@@ -129,8 +135,7 @@
                     <div class="pagination">
                         <div class="pagination__title">Страница 1 из 7</div>
                         <ul class="pagination__list">
-                            <li class="pagination__item">&lt;</li>
-                            <li class="pagination__item">1</li>
+                            <li class="pagination__item">&lt;</li><li class="pagination__item">1</li>
                             <li class="pagination__item">2</li>
                             <li class="pagination__item">3</li>
                             <li class="pagination__item">4</li>
@@ -141,9 +146,9 @@
                         </ul>
                     </div>
                     <div class="form">
-                        <div class="form__title">
+                        <h2 class="form__title">
                             Оставить отзыв
-                        </div>
+                        </h2>
                         <form action="" class="form__elem" method="post">
                             <div class="form__row clear-fix">
                                 <label class="form__cell">
@@ -198,27 +203,29 @@
 
         </section>
         <!--Подвал-->
-
+    </div>
+        <div class="footer-container">
         <footer class="footer">
             <div class="container clear-fix">
                 <div class="copyright">
-                    <div class="copyright__text">
-                        Сделано с любовью и старанием на курсе «HTML + CSS» в<a href="https://loftschool.com/" class="copyright__link"><span class="main__text-bold">Loftschool. </span></a>Автор
+                    <div class="copyright__text">Сделано с любовью и старанием</div>
+                        <div class="copyright__text"> на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="copyright__link"><span class="main__text-bold">Loftschool. </span></a>Автор
                         работы: <span class="main__text-bold">Антонов Александр</span>
                     </div>
                 </div>
-                <div class="logo-name__footer">Афродита</div>
+                                    <a href="index.html" class="logo-main">
+                        <div class="logo-footer">Афродита</div>
+                    </a>
+           
                 <div class="social">
                     <div class="social__block">
                         <div class="social__title">
                             Наши социальные сети
                         </div>
                         <ul class="social__list">
-                            <li class="social__item">
-                                <li class="social__item">
+                             <li class="social__item">
                                     <a class="social__link social__link--vk" href="#"></a>
                                 </li>
-                            </li>
                             <li class="social__item">
                                 <a class="social__link social__link--fb" href="#"></a>
                             </li>
@@ -241,3 +248,4 @@
 </body>
 
 </html>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
