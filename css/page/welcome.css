@@ -24,7 +24,6 @@
 }
 .welcome__btn {
     margin-top: 33px;
-    height: 45px;
     width: 172px;
     text-transform: uppercase;
     display: inline-block;
@@ -36,7 +35,8 @@
     background-color: #f89513; 
     vertical-align: middle;
     color: #fff9f4;
-    padding-top: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 0;
 }
 .welcome__btn:hover {
